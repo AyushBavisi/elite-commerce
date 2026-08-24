@@ -198,9 +198,8 @@ h1,h2,h3,h4{font-family:var(--font-head);line-height:1.15;color:var(--navy-900);
   background:var(--paper);border-top:1px solid var(--border);
   transition:max-height .35s ease;
 }
-.mobile-nav.open{max-height:600px;}
+.mobile-nav.open{max-height:500px;}
 .mobile-nav a{padding:14px 24px;font-weight:600;border-bottom:1px solid var(--border);}
-.mobile-nav .btn{margin:12px 24px 0;}
 
 /* ===================== Section basics ===================== */
 .section{padding:96px 0;}
@@ -302,7 +301,8 @@ h1,h2,h3,h4{font-family:var(--font-head);line-height:1.15;color:var(--navy-900);
   background-size:11px 11px;opacity:.55;
 }
 .poster-pen{
-  position:absolute;bottom:20px;right:20px;width:44px;height:44px;opacity:.12;
+  position:absolute;bottom:16px;right:16px;width:50px;height:50px;
+  opacity:.85;filter:drop-shadow(0 2px 4px rgba(15,34,71,.25));
 }
 
 .poster-eyebrow{
@@ -754,5 +754,5 @@ textarea{resize:vertical;}
   .poster-subject svg{width:24px;height:24px;margin-bottom:7px;}
   .poster-subject strong{font-size:.68rem;}
   .poster-subject small{font-size:.6rem;}
-  .poster-pen{display:none;}
+  .poster-pen{width:36px;height:36px;bottom:12px;right:12px;}
 }
