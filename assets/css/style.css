@@ -679,8 +679,6 @@ textarea{resize:vertical;}
   100%{box-shadow:0 10px 26px rgba(37,211,102,.5), 0 0 0 0 rgba(37,211,102,0);}
 }
 
-.mobile-sticky-cta{display:none;}
-
 /* ===================== Reveal animation ===================== */
 /* Visible by default so content never depends on JS running; JS opts sections
    into the animated hidden->visible state once the observer is armed. */
@@ -738,15 +736,7 @@ textarea{resize:vertical;}
   .footer-brand{justify-content:center;}
   .social-icons{justify-content:center;}
   .form-row-split{grid-template-columns:1fr;}
-  .mobile-sticky-cta{
-    display:flex;position:fixed;bottom:0;left:0;right:0;z-index:150;
-    background:#fff;border-top:1px solid var(--border);
-    padding:10px 14px calc(10px + env(safe-area-inset-bottom));
-    gap:10px;box-shadow:0 -6px 20px rgba(10,24,48,.12);
-  }
-  .mobile-sticky-cta .btn{flex:1;padding:12px 10px;font-size:.85rem;}
-  body{padding-bottom:64px;}
-  .floating-whatsapp{bottom:78px;right:16px;width:50px;height:50px;}
+  .floating-whatsapp{bottom:20px;right:16px;width:52px;height:52px;}
   .hero-logo{display:block;width:150px;height:auto;margin:0 auto 20px;}
 }
 
