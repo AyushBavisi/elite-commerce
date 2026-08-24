@@ -634,7 +634,7 @@ textarea{resize:vertical;}
 .contact-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-md);}
 .contact-icon{font-size:1.6rem;margin-bottom:10px;}
 .contact-card h3{font-size:.95rem;margin-bottom:6px;}
-.contact-card p{font-size:.92rem;color:var(--text-muted);font-weight:600;}
+.contact-card p{font-size:.92rem;color:var(--text-muted);font-weight:600;overflow-wrap:break-word;word-break:break-word;}
 .contact-card a{color:var(--navy-800);}
 
 /* ===================== Footer ===================== */
@@ -664,7 +664,7 @@ textarea{resize:vertical;}
 }
 .social-icons a:hover{background:var(--gold-500);color:var(--navy-950);transform:translateY(-3px);}
 .footer-insta-handle{font-size:.82rem;color:var(--text-soft);}
-.footer-contact p{font-size:.9rem;margin-bottom:8px;}
+.footer-contact p{font-size:.9rem;margin-bottom:8px;overflow-wrap:break-word;word-break:break-word;}
 .footer-contact a:hover{color:var(--gold-300);}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding:20px 0;text-align:center;}
 .footer-bottom p{font-size:.82rem;color:var(--text-soft);}
